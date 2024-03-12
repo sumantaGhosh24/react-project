@@ -1,0 +1,26 @@
+.search {
+  width: 80%;
+  margin-inline: auto;
+  background-color: lightblue;
+  padding: 15px;
+  border-radius: 7px;
+}
+.search__input {
+  padding: 12px 8px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+.search__list {
+  list-style: none;
+}
+.search__item {
+  padding: 8px;
+  background-color: blue;
+  margin-block: 5px;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+}

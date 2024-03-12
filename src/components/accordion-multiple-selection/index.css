@@ -1,0 +1,29 @@
+.accordion {
+  width: 80%;
+  margin-inline: auto;
+}
+.accordion-item {
+  background-color: lightblue;
+  border-radius: 7px;
+  margin-block: 10px;
+  padding: 10px;
+}
+.accordion-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.accordion-action h3 {
+  font-size: 18px;
+}
+.accordion-action span {
+  transition: all 0.7s ease;
+}
+.accordion-action span:hover {
+  transform: rotate(90deg);
+}
+.accordion-content {
+  padding-top: 10px;
+  font-size: 16px;
+}

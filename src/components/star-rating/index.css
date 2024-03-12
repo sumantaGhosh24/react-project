@@ -1,0 +1,12 @@
+.star {
+  width: 80%;
+  margin-inline: auto;
+}
+.active {
+  color: gold;
+  cursor: pointer;
+}
+.inactive {
+  color: #000000;
+  cursor: pointer;
+}

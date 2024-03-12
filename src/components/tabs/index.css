@@ -1,0 +1,33 @@
+.tabs {
+  width: 80%;
+  margin-inline: auto;
+}
+.tabs__nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.tabs__nav__item {
+  text-transform: capitalize;
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.tabs__nav__item--active {
+  text-transform: capitalize;
+  background-color: blue;
+  color: white;
+}
+.tabs__content {
+  background-color: lightblue;
+  padding: 16px 8px;
+  border-radius: 7px;
+}
+.tabs__content__item {
+  font-size: 16px;
+}

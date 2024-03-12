@@ -1,0 +1,37 @@
+.color__container {
+  width: 80%;
+  margin-inline: auto;
+  padding: 15px;
+  border-radius: 7px;
+}
+.color__buttons {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+.color__button {
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid blue;
+  color: blue;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.color__button--active {
+  background-color: blue;
+  color: white;
+}
+.color__content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.color__content__title {
+  color: white;
+}
+.color__content__description {
+  color: white;
+  font-weight: bold;
+}

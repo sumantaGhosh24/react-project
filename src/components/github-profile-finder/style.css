@@ -1,0 +1,57 @@
+.gpf__container {
+  width: 80%;
+  margin-inline: auto;
+}
+.gpf__form {
+  margin-bottom: 15px;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 7px;
+}
+.gpf__input {
+  padding: 12px 16px;
+  outline: none;
+  border-radius: 7px;
+  width: 80%;
+  margin-right: 10px;
+}
+.gpf__button {
+  padding: 12px 16px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  outline: none;
+  border-radius: 7px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.gpf__button:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
+.gpf__user {
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.gpf__image {
+  height: 300px;
+}
+.gpf__bio {
+  font-size: 16px;
+  font-weight: 500;
+}
+.gpf__box {
+  display: flex;
+}
+.gpf__alert {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 15px;
+  color: red;
+}

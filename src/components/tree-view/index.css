@@ -1,0 +1,20 @@
+.menu__container {
+  background: blue;
+  width: 250px;
+  height: 600px;
+  padding: 16px 20px;
+  overflow: hidden;
+}
+.menu {
+  margin-left: 15px;
+}
+.menu__item {
+  color: white;
+  margin-block: 10px;
+}
+.menu__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}

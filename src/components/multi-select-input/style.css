@@ -1,0 +1,51 @@
+.msi__container {
+  width: 80%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.msi__pills {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.msi__pill {
+  background-color: blue;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 7px;
+}
+.msi__pill__text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.msi__form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.msi__input {
+  padding: 8px 12px;
+  border-radius: 7px;
+  outline: none;
+}
+.msi__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.msi__item {
+  list-style: none;
+  background-color: gray;
+  color: white;
+  max-width: fit-content;
+  padding: 6px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.msi__item--active {
+  background-color: blue;
+}

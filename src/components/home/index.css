@@ -1,0 +1,22 @@
+.h-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h-heading {
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+.h-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.h-link-item {
+  font-weight: bold;
+  font-size: 22px;
+}

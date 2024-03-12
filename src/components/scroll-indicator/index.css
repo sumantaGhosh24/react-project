@@ -1,0 +1,43 @@
+.scroll {
+  width: 80%;
+  margin-inline: auto;
+}
+.scroll__container {
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 7px;
+  position: fixed;
+  width: 80%;
+  top: 70px;
+}
+.scroll__container h3 {
+  text-align: center;
+  font-size: 24px;
+}
+.scroll__container div {
+  background-color: blue;
+  height: 10px;
+  border-radius: 10px;
+}
+.users {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  gap: 15px;
+}
+.user {
+  background: lightblue;
+  padding: 20px;
+  border-radius: 7px;
+}
+.user__name {
+  font-size: 24px;
+}
+.user__age {
+  margin-block: 15px;
+  font-size: 20px;
+}
+.user__gender {
+  font-size: 18px;
+  text-transform: capitalize;
+}

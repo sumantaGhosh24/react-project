@@ -1,0 +1,55 @@
+.pg__container {
+  width: 80%;
+  margin-inline: auto;
+  background-color: blue;
+  color: white;
+  border-radius: 7px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.pg__password {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.pg__password h3 {
+  font-size: 18px;
+}
+.pg__btn--copy,
+.pg__btn--submit {
+  padding: 12px 16px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.pg__btn--copy:hover,
+.pg__btn--submit:hover {
+  background-color: black;
+  color: white;
+}
+.pg__range {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.pg__range span {
+  gap: 10px;
+  display: flex;
+}
+.pg__checkboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.pg__checkbox {
+  display: flex;
+  gap: 10px;
+}
